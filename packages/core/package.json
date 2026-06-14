@@ -1,0 +1,30 @@
+{
+  "name": "password-generator-npm",
+  "version": "1.0.4",
+  "description": "Reusable deterministic password-generation utilities.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --config jest.config.cjs",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evyatar-Hazan/password-generator.git",
+    "directory": "packages/core"
+  },
+  "author": "Evyatar Hazan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evyatar-Hazan/password-generator/issues"
+  },
+  "homepage": "https://github.com/Evyatar-Hazan/password-generator/tree/main/packages/core#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}

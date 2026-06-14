@@ -1,0 +1,92 @@
+{
+  "name": "@password-generator/mobile",
+  "version": "1.0.9",
+  "private": true,
+  "android": {
+    "versionCode": 9,
+    "versionName": "1.0.9"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest",
+    "release-apk": "cd android/ && ./gradlew app:assembleRelease && cd ..",
+    "release-aab": "cd android/ && ./gradlew bundleRelease && cd ..",
+    "clean": "cd android/ && ./gradlew clean && cd ..",
+    "tSort": "node -p \"require('./scripts/tSort.js');\" && prettier --write \"src/i18n/**/*.json\""
+  },
+  "dependencies": {
+    "@expo-google-fonts/righteous": "^0.2.3",
+    "@react-native-async-storage/async-storage": "^2.0.0",
+    "@react-native-clipboard/clipboard": "^1.15.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.4.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "expo-font": "^12.0.7",
+    "i18n-js": "^4.4.3",
+    "i18next": "^23.12.1",
+    "lodash.memoize": "^4.1.2",
+    "password-generator-npm": "1.0.4",
+    "prettier-eslint": "^16.3.0",
+    "react": "18.3.1",
+    "react-i18next": "^15.0.1",
+    "react-native": "0.75.2",
+    "react-native-gesture-handler": "^2.17.1",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-localize": "^3.2.0",
+    "react-native-reanimated": "^3.17.4",
+    "react-native-safe-area-context": "^4.10.7",
+    "react-native-screens": "^3.32.0",
+    "react-native-svg": "^15.3.0",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@eslint/js": "^9.16.0",
+    "@react-native/babel-preset": "0.75.2",
+    "@react-native/eslint-config": "0.75.2",
+    "@react-native/metro-config": "0.75.2",
+    "@react-native/typescript-config": "0.75.2",
+    "@types/react": "^18.2.6",
+    "@types/react-i18next": "^8.1.0",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.6.3",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-justinanastos": "^1.3.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-reanimated": "^2.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^15.13.0",
+    "husky": "^8.0.0",
+    "jest": "^29.6.3",
+    "prettier": "3.4.2",
+    "react-test-renderer": "18.3.1",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc --noEmit && yarn tSort && git add -u src/i18n/\\* && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,scss,md,}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  }
+}

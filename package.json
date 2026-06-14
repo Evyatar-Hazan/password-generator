@@ -1,0 +1,23 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Password Generator product suite: reusable core library and React Native mobile app.",
+  "workspaces": [
+    "apps/mobile",
+    "packages/core"
+  ],
+  "scripts": {
+    "dev:mobile": "npm --workspace apps/mobile run start",
+    "android": "npm --workspace apps/mobile run android",
+    "ios": "npm --workspace apps/mobile run ios",
+    "lint": "npm run lint:mobile",
+    "lint:mobile": "npm --workspace apps/mobile run lint",
+    "test": "npm run test:core && npm run test:mobile",
+    "test:core": "npm --workspace packages/core test",
+    "test:mobile": "npm --workspace apps/mobile test -- --watch=false"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

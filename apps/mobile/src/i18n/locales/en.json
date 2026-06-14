@@ -1,0 +1,201 @@
+{
+  "general": {
+    "appName": "Password generator",
+    "privacyPolicy": "Privacy Policy",
+    "aboutApp": "About the App",
+    "aboutUs": "About Us",
+    "version": "Version {{version}}"
+  },
+  "home": {
+    "subTitle": "Enter two keywords to create a strong password. \nFor those two words you will get the same password.",
+    "note": "Note, please remember the keywords cannot be restored in case of forgetting.",
+    "Keyword1Title": "Keyword 1",
+    "Keyword2Title": "Keyword 2",
+    "inputPlaceholder": "Type your keyword"
+  },
+  "hub": {
+    "veryWeakTitle": "Numbers only",
+    "weakTitle": "Letters only",
+    "mediumTitle": "Numbers and letters",
+    "strongTitle": "Includes capital letters",
+    "veryStrongTitle": "Includes a symbol"
+  },
+  "menu": {
+    "shareApp": "Share App",
+    "securityKey": "Security Key",
+    "settings": "Settings",
+    "darkMode": "Dark Mode",
+    "language": "Language",
+    "privacyNotice": "By using this app, you agree to our [link1]"
+  },
+  "privacyPolicy": {
+    "lastUpdate": {
+      "description": "last update: ",
+      "details": "2023-09-21"
+    },
+    "owner": "Evyatar Hazan operates the Password-Generator mobile application (the 'Application').",
+    "appName": "Password-Generator",
+    "dataCollection": {
+      "description": "No data collection:",
+      "details": "The Password-Generator app does not collect, store, or share any personal information or data from its users. We do not collect information about user input, generated passwords, or any device-specific information."
+    },
+    "accountCreation": {
+      "description": "No account creation:",
+      "details": "The Password-Generator app does not require users to create accounts or provide any form of registration."
+    },
+    "internetConnection": {
+      "description": "No internet connection:",
+      "details": "The Password-Generator app does not require an internet connection to function. It works completely offline and does not communicate with external servers or services."
+    },
+    "advertising": {
+      "description": "Advertising:",
+      "details": "The Password-Generator app may display third-party advertisements. These ads may collect data in accordance with the privacy policies of the advertising providers. However, we do not have access to or control over the data collected by these third-party advertisers."
+    },
+    "security": {
+      "description": "Security:",
+      "details": "We take user privacy and data security seriously. While the Application does not collect user data, we implement security measures to protect against unauthorized access, use, or disclosure of any information not collected."
+    },
+    "childrenPrivacy": {
+      "description": "Children's privacy:",
+      "details": "The Password-Generator App is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under the age of 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us, and we will delete such information from our records."
+    },
+    "changes": {
+      "description": "Changes to this Privacy Policy:",
+      "details": "We may update our privacy policy from time to time. It is recommended that you review this privacy policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on the link below."
+    },
+    "contact": {
+      "description": "Contact Us:",
+      "details": "If you have any questions or concerns about this privacy policy, please contact us at [link1]",
+      "email": "mailto:evyatar.hazan3.14@gmail.com",
+      "emailName": "Email"
+    },
+    "sourceDocument": {
+      "description": "For the source document, please visit our [link1]",
+      "link": "https://docs.google.com/document/d/14S4NDZgweh8Iin8ILHM1xWVVNOqVZ0XlfDtiVYTinSQ/edit?usp=sharing"
+    }
+  },
+  "aboutApp": {
+    "gettingStarted": {
+      "title": "Getting Started:",
+      "personalWord": {
+        "description": "1. Enter Your Personal Word:",
+        "details": "Think of a word or phrase that is personal to you, something only you would know. This word will be the foundation of your password and should be kept secret."
+      },
+      "platformWord": {
+        "description": "2. Enter Platform-Specific Word:",
+        "details": "Think of a word related to the platform or service for which you need the password. For example, if you're creating a password for your bank, use a word related to banking. This adds an extra layer of security and makes your password unique to each platform."
+      }
+    },
+    "exampleUsage": {
+      "title": "Example Usage:",
+      "personalWord": {
+        "description": "Personal Word:",
+        "details": "'Avraham'"
+      },
+      "platformWord": {
+        "description": "Platform Word:",
+        "details": "'Bank'"
+      }
+    },
+    "generatedPasswords": {
+      "title": "Generated Passwords:"
+    },
+    "securityTips": {
+      "title": "Security Tips:",
+      "secret": {
+        "description": "● Keep Your Personal Word Secret:",
+        "details": "Do not share the personal word you use with anyone. It is the key to generating your unique passwords."
+      },
+      "obvious": {
+        "description": "● Avoid Using Obvious Platform Words:",
+        "details": "Choose platform-specific words that are not easily guessable by others."
+      },
+      "securityNeeds": {
+        "description": "● Select the Password Option that Fits Your Security Needs:",
+        "details": "Depending on the sensitivity of the account, choose the generated password option that best aligns with your security requirements."
+      }
+    },
+    "importantNote": {
+      "title": "Important Note:",
+      "Note": {
+        "details": "Your generated passwords are not stored anywhere within Password-Generator. They are generated on-the-fly based on your inputs and are not accessible to anyone, ensuring your security and privacy."
+      },
+      "thanks": {
+        "details": "Thank you for choosing Password-Generator! Your online security is our priority. If you have any questions or concerns, feel free to contact our support team."
+      }
+    }
+  },
+  "aboutUs": {
+    "welcome": {
+      "description": "Welcome to Password-Generator!",
+      "details": "Hello there! I'm Evyatar Hazan, the mind behind Password-Generator. It's a pleasure to have you here, and I'm excited to share the story of how Password-Generator came to fruition."
+    },
+    "inspiration": {
+      "description": "Inspiration:",
+      "details": "Like many of you, I've been deeply concerned about online security. I realized that one of the simplest yet most effective ways to protect oneself online is by using strong, unique passwords for each account. However, I found that many people struggled with creating such passwords. This inspired me to develop Password-Generator, a tool that simplifies the process of generating secure passwords."
+    },
+    "developmentJourney": {
+      "description": "Development Journey:",
+      "details": "The journey of creating Password-Generator has been filled with challenges and triumphs. From researching the best encryption algorithms to designing a user-friendly interface, every step has been a labor of love. Despite the obstacles, the satisfaction of contributing to online security has made it all worthwhile."
+    },
+    "featuresAndBenefits": {
+      "description": "Features and Benefits:",
+      "details": "Password-Generator isn't just another run-of-the-mill password generator. It's a robust solution crafted with simplicity, security, and privacy in mind. One of our core principles is that we never store any information about you or your passwords at any stage of the process. Your privacy is paramount, and you can trust Password-Generator to generate strong passwords without compromising your sensitive information. With Password-Generator, you can effortlessly create strong passwords tailored to your specific requirements. Our tool ensures that your online accounts remain shielded from unauthorized access, giving you peace of mind."
+    },
+    "futurePlans": {
+      "description": "Future Plans:",
+      "details": "In the future, we also plan to expand our offerings to provide even more convenience and flexibility to our users. We're gearing up to launch a dedicated website and a Chrome extension for Password-Generator. These additions will further streamline the password management process, allowing you to access our tool seamlessly across different platforms and browsers. Stay tuned for these exciting developments!"
+    },
+    "thankYou": {
+      "description": "Thank You:",
+      "details": "I want to extend my heartfelt gratitude to each and every one of you for choosing Password-Generator. Your support and feedback drive us to continuously improve and refine our tool. A special thanks to the creator of the original idea, Mandy, for inspiring this project. Your contribution has been invaluable. Together, we can create a safer online environment for everyone."
+    },
+    "getInTouch": {
+      "description": "Get in Touch:",
+      "details": "Have a question or suggestion? I'd love to hear from you! Feel free to reach out to me at [link1] or connect with me on LinkedIn [link2]. You can also connect with Mandy on LinkedIn [link3]. Your input is invaluable in shaping the future of Password-Generator.",
+      "journey": "Thank you for being a part of our journey!",
+      "warmRegards": "Warm regards, Evyatar Hazan Founder & Developer, Password-Generator",
+      "owner": "Evyatar Hazan",
+      "here": "here",
+      "linkOwner": "https://www.linkedin.com/in/evyatar-hazan-662235210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "link": "https://www.linkedin.com/in/mendy-bloy-5671b8276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    }
+  },
+  "onboarding": {
+    "general": {
+      "skip": "Skip",
+      "next": "Next",
+      "back": "Back",
+      "done": "Done",
+      "dontShowAgain": "Don't show again"
+    },
+    "page0": {
+      "title": "Welcome to your secure password generator!",
+      "subtitle": "Create strong passwords easily and securely, with no need to remember them."
+    },
+    "page1": {
+      "title": "Your password – in your head!",
+      "subtitle": "Forget hundreds of complicated passwords. All you need to remember is just two words."
+    },
+    "page2": {
+      "title": "How does it work?",
+      "subtitle": "1. **Secret personal word:** Think of a word or phrase only you know. This will be the unique base for your passwords.\n\n2. **Platform word:** Enter a word related to the service or website for which you're creating a password (e.g., 'Facebook', 'Bank', 'Email')."
+    },
+    "page3": {
+      "title": "All security levels – in one shot!",
+      "subtitle": "**The app instantly generates secure passwords for you in various levels:**\n• Numbers only: 1234\n• Letters only: abcd\n• Numbers and letters: a1b2\n• Including uppercase: Aa12\n• Including special characters: #Aa1\n\nChoose the password that best fits your needs from the options shown."
+    },
+    "page4": {
+      "title": "Why is it so secure?",
+      "subtitle": "• **One-way function (Hash):** Our algorithm ensures your words can't be recovered from the generated password.\n• **Personal security word:** Adds an extra protection layer – only you can create your passwords.\n• **Privacy guaranteed:** We don’t store any information about your words or generated passwords!"
+    },
+    "page5": {
+      "title": "Important to know!",
+      "subtitle": "**Critical warning:** Your personal security word is essential for recovering passwords.\nIf you delete the app, reset data, or switch devices – **you will not be able to recover your word or passwords.**\nMake sure you remember your personal word well!"
+    },
+    "page6": {
+      "title": "Ready to start?",
+      "subtitle": "Enter your personal word and start creating secure passwords with ease!"
+    }
+  }
+}
